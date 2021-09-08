@@ -1,0 +1,165 @@
+/* hero */
+body{
+    margin: 0;
+    background: #0c0c0c;
+}
+.navigation {
+    margin-top: 4rem;
+    height: 70px;
+    background: #0c0c0c;
+  }
+  .brand {
+    position: absolute;
+    padding-left: 20px;
+    float: left;
+    line-height: 70px;
+    text-transform: uppercase;
+    font-size: 2.4em;
+  }
+  .brand a{
+    color: #fff;
+    text-decoration: none;
+    font-family:  sans-serif;
+    font-weight: 700;
+  }
+  .nav-container {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+  nav {
+    float: right;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  nav ul li {
+    float: left;
+    font-family: sans-serif;
+    font-weight: 100;
+    /* position: relative; */
+  }
+  nav ul li a, nav ul li a:visited {
+    display: block;
+    padding: 0 20px;
+    font-size: 1.0em;
+    line-height: 70px;
+    background: #0c0c0c;
+    color: #fff;
+    text-decoration: none;
+  }
+/* my code */
+.nav-list{
+  /* font-size: 1.4rem; */
+}
+.vimeoVideo{
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+.brandSubheading{
+  position: absolute;
+    padding-left: 23px;
+    float: left;
+    line-height: 140px;
+    font-size: 0.8em;
+    font-weight: 400;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    opacity: 1;
+    
+}
+
+/* categories */
+.category img{
+  max-width: 100%;
+  height: auto;
+  display: table;
+  margin: 0 auto;
+  /* max-width: 376px; */
+}
+.categories{
+  -webkit-tap-highlight-color: transparent;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-column-gap: 40px;
+  grid-row-gap: 30px;
+  margin-left: 20.7rem;
+  margin-right: 20.7rem;
+  cursor: pointer;
+  /* height: 110vh; */
+  
+  }
+.category span{
+  text-align: center;
+}
+.categoryName{
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  font-weight: 100;
+  opacity: 0.4;
+  text-transform: uppercase;
+  margin: 1rem ;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .navigation {
+    margin-top: 0.2rem;}
+  .categories{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(246px, 1fr));
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  margin-left: 0.7rem;
+  margin-right: 0.7rem;
+  /* height: 110vh; */
+  }
+  .vimeoVideo{
+    width: 96%;
+    margin-top: 3rem;
+  }
+
+}
+@media only screen and (max-width: 519px) {
+  .navigation {
+    margin-top: 0.1rem;}
+  .categories{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  /* grid-column-gap: 40px; */
+  /* grid-row-gap: 30px; */
+  /* margin-left: 0.7rem; */
+  /* margin-right: 0.7rem; */
+  /* height: 110vh; */
+  }
+  
+  .hero{
+    height: 44vh;
+  }
+  .brand {
+    font-size: 1.55em;
+    padding-left: 13px;
+  }
+  .brandSubheading{
+      line-height: 114px;
+      font-size: 0.8em; 
+      padding-left: 16px;     
+  }
+  nav ul li a, nav ul li a:visited {
+    padding: 0 5px;
+    font-size: 1.0em;
+    line-height: 70px;
+    
+  }
+  .nav-list{
+    padding-right: 13px;
+  }
+
+}

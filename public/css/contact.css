@@ -1,0 +1,55 @@
+/* body{overflow-y:hidden; overflow-x: hidden;} */
+.socials {
+    text-align: center;
+    color: #1B1B32;
+    font-size: 3rem;
+    padding: 30px;
+    width: 40%;
+    position: relative;
+    margin: 14rem auto;
+
+}
+.socials a{
+    text-decoration: none;
+    color: white;
+}
+.instagram, .telegram{
+    margin-top: 2rem;
+}
+.individualSocial{
+    transition: all 500ms;
+    overflow: hidden;
+    border: 2px solid white;
+    background-color: #1B1B32;
+    border: 2px solid white;
+    background-color: #1B1B32;
+    padding: 7px;
+
+}
+.individualSocial:hover{
+    transform: translateY(-3px) scale(1.02);
+}
+@media only screen and (max-width: 768px) {
+    .socials {
+        text-align: center;
+        color: #1B1B32;
+        font-size: 1.6rem;
+        padding: 30px;
+        width: 70%;
+        position: relative;
+        margin: 13rem auto;
+        
+    }
+}
+@media only screen and (max-width: 519px) {
+    .socials {
+        text-align: center;
+        color: #1B1B32;
+        font-size: 1.6rem;
+        padding: 30px;
+        width: 90%;
+        position: relative;
+        margin: 13rem auto;
+    
+    }
+  }

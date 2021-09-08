@@ -1,0 +1,27 @@
+.categoryVideo{
+    width: 48%;
+    margin-left: 21rem;
+    margin-top: 5rem;
+    
+  }
+.sidetext{
+    color: white;
+    font-size: 30px;
+    float: right;
+    /* margin-top: 5rem; */
+    margin-right: 24rem;
+}
+/* .container{
+  position: relative;
+} */
+.downtext{
+  color: white;
+  text-align: center;
+  margin: 1rem;
+  font-weight: 400;
+}
+.subtitle{
+  font-weight: 200;
+  margin: 0.4rem;
+}
+
